@@ -1,4 +1,4 @@
-package com.xt.pattern.factory.sinple_factory;
+package com.xt.pattern.factory.static_factory;
 
 public class Coffee {
     private String name;

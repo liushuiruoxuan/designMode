@@ -1,7 +1,7 @@
-package com.xt.pattern.factory.sinple_factory;
+package com.xt.pattern.factory.static_factory;
 
-public class SinpleCoffeeFactory {
-    public Coffee createCoffee(String type) {
+public class SimpleCoffeeFactory {
+    public static Coffee createCoffee(String type) {
         Coffee coffee = null;
         if ("american".equals(type)) {
             coffee = new AmericanCoffee();
